@@ -10,6 +10,9 @@ class Formatter {
   
   static titleize(string){
     let words = string.split(' ');
-    words.map(){}
+    let articles = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
+    words.map((word) => {
+      word.find('')
+    })
   }
 }
