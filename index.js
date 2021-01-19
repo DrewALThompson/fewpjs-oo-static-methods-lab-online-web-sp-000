@@ -4,7 +4,7 @@ class Formatter {
   }
   
   static sanitize(string){
-    string = string.replace(/[^a-z0-9_-\s\.,]/,'');
+    string = string.replace(/[^a-z0-9_-\s\.,]/gim,'');
     return string.trim();
   }
   
