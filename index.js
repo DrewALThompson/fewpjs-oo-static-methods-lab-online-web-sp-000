@@ -18,5 +18,6 @@ class Formatter {
         Formatter.capitalize(word);
       }
     })
+    return words;
   }
 }
