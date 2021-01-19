@@ -18,6 +18,6 @@ class Formatter {
         Formatter.capitalize(word);
       }
     })
-    return words;
+    return words.join(' ');
   }
 }
