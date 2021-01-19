@@ -12,7 +12,11 @@ class Formatter {
     let words = string.split(' ');
     let articles = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
     words.map((word) => {
-      word.find('')
+      if (articles.include(word)){
+        return word;
+      } else {
+        Formatter.capitalize(word);
+      }
     })
   }
 }
