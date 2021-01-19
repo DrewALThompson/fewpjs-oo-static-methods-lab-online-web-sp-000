@@ -11,7 +11,7 @@ class Formatter {
   static titleize(string){
     let words = string.split(' ');
     let articles = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
-    words.map((word) => {
+    let titleized =words.map((word) => {
       if (articles.includes(word)){
         console.log(word);
         return word;
@@ -20,6 +20,6 @@ class Formatter {
         return this.capitalize(word);
       }
     })
-    return words.join(' ');
+    return titleized.join(' ');
   }
 }
