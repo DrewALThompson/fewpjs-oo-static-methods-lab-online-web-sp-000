@@ -8,5 +8,8 @@ class Formatter {
     return string.trim();
   }
   
-  static titleize(){}
+  static titleize(string){
+    let words = string.split(' ');
+    words.map(){}
+  }
 }
