@@ -1,3 +1,9 @@
 class Formatter {
-  //add static methods here
+  static capitalize(string){
+    string.split('')[0]
+  }
+  
+  static sanitize(){}
+  
+  static titleize(){}
 }
