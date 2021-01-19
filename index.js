@@ -13,10 +13,8 @@ class Formatter {
     let articles = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
     let titleized =words.map((word) => {
       if (articles.includes(word)){
-        console.log(word);
         return word;
       } else {
-        console.log(this.capitalize(word));
         return this.capitalize(word);
       }
     })
