@@ -13,9 +13,9 @@ class Formatter {
     let articles = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
     words.map((word) => {
       if (articles.includes(word)){
+        console.log(word);
         return word;
       } else {
-        console.log(Formatter.capitalize(word));
         return Formatter.capitalize(word);
       }
     })
