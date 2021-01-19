@@ -15,7 +15,8 @@ class Formatter {
       if (articles.includes(word)){
         return word;
       } else {
-        Formatter.capitalize(word);
+        console.log(Formatter.capitalize(word));
+        return Formatter.capitalize(word);
       }
     })
     return words.join(' ');
