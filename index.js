@@ -16,7 +16,7 @@ class Formatter {
         console.log(word);
         return word;
       } else {
-        return Formatter.capitalize(word);
+        return this.capitalize(word);
       }
     })
     return words.join(' ');
