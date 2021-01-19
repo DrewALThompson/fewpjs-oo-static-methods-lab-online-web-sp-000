@@ -5,6 +5,7 @@ class Formatter {
   
   static sanitize(string){
     string = string.replace(/[^a-z0-9áéíóúñü_-\s\.,]/gim,'');
+    string.trim();
   }
   
   static titleize(){}
